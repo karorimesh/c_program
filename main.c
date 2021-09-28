@@ -3,9 +3,11 @@
 //
 #include<stdio.h>
 int main(){
+
     //Variables
     int firstValue, secondValue, result;
     char operator;
+
     //Input
     printf("\nEnter The Expression is: ");
     scanf(" %d %c %d", &firstValue, &operator, &secondValue);
@@ -29,8 +31,10 @@ int main(){
             printf("Wrong expression");
 
     }
-    //Output of parameters
+
+    //Output of operation
     printf("\n%d %c %d = %d", firstValue, operator, secondValue, result);
+
     return 0;
 }
 
