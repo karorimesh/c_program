@@ -1,4 +1,7 @@
 //
+// Created by Student1 on 9/29/2021.
+//
+//
 // Created by Student1 on 9/28/2021.
 //
 #include<stdio.h>
@@ -45,6 +48,7 @@ int main(){
     (operator=='%')?(printf("")):(printf("\n%d mod %d = %d",firstValue,secondValue,firstValue%secondValue));
 
 
-   return 0;
+    return 0;
 }
+
 
